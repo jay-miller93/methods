@@ -25,15 +25,17 @@ namespace methodPractice
             //Console.WriteLine("Please enter the second number to be added.");
             //int numTwo = int.Parse(Console.ReadLine());
 
-            Food("Jay ", " pizza");
-            Food("Becky ", " ice cream");
+            //Food("Jay ", " pizza");
+            //Food("Becky ", " ice cream");
 
-            RetCalc(24);
+            //RetCalc(24);
 
-            double hoursWorkedWeekly = 42.3d;
-            double hourlyWage = 12.50d;
+         
 
-            Console.WriteLine("Your monthly wage is {0}.", WageCalculator(hoursWorkedWeekly, hourlyWage));
+            //double hoursWorkedWeekly = 42.3d;
+            //double hourlyWage = 12.50d;
+
+            //Console.WriteLine("Your monthly wage is {0}.", WageCalculator(hoursWorkedWeekly, hourlyWage));
 
 
             //int answer = Add(numOne, numTwo);
@@ -92,30 +94,38 @@ namespace methodPractice
         //it should take two string parameters. one representing a name, the other representing a food
         //the return type should be void
 
-        public static void Food(string name, string favFood)
-        {
-            Console.WriteLine(name + "likes" + favFood);
-        }
+        //public static void Food(string name, string favFood)
+        //{
+        //    Console.WriteLine(name + "likes" + favFood);
+        //}
         ////Create a method called RetirementCalculator
         //It should take an int as a parameter representing the user's age
         //The method should calculate how many more years until the user retires using 65 as the age of retirement.
         //The return type should be void
         //Once it calculates the user's retirement age it should print
         //"The user will retire in X years" where x represents the value that was calculated
-        public static void RetCalc(int userAge)
-        {
-            int retYrs = 65 - userAge;
-            Console.WriteLine("You will retire in " + retYrs + " years.");
-        }
-        //wage calculator
-        public static double WageCalculator(double hoursWorkedWeekly, double hourlyWage)
-        {
-            //this method should calculate the monthly wage
-            double monthlyWage = (hoursWorkedWeekly* 52 * hourlyWage) / 12;
-            return monthlyWage;
-        }
-        
+        //public static void RetCalc(int userAge)
+        //{
+        //    int retYrs = 65 - userAge;
+        //    Console.WriteLine("You will retire in " + retYrs + " years.");
+        //}
+        ////wage calculator
+        //public static double WageCalculator(double hoursWorkedWeekly, double hourlyWage)
+        //{
+        //    //this method should calculate the monthly wage
+        //    double monthlyWage = (hoursWorkedWeekly* 52 * hourlyWage) / 12;
+        //    return monthlyWage;
+        //}
+
+    //***************create 2 methods of your choosing. at least one method should have non void return type. 
+    //both methods should take 1 parameter
+    //remember when naming your method that it should represent what your method does
+    //method should accomplish one thing 
+
+
+     
     
+
        
     }
 }

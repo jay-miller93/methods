@@ -10,6 +10,8 @@ namespace methodPractice
     {
         static void Main(string[] args)
         {
+
+
             //methods-do stuff, tend to belong to/interact with an object
             //they end with (), and they come built in
             //readline(),writeline(), split(), Reverse(), sort()
@@ -30,7 +32,7 @@ namespace methodPractice
 
             //RetCalc(24);
 
-         
+
 
             //double hoursWorkedWeekly = 42.3d;
             //double hourlyWage = 12.50d;
@@ -63,69 +65,85 @@ namespace methodPractice
             //return sum;
             //the return takes whatever value is determined by using this method..
             //..and sends that value back to wherever i call my method
+
+            //if you have a method that does NOT have a return value, you would use the keyword void
+            //when void we dont need to use return
+
+            //public static void RobotWarning(string name)
+            //{
+            //    Console.WriteLine("Danger, " + name + "!!");
+            //}
+
+            //public static void Useless()
+            //{
+            //    Console.WriteLine("stuff");
+            //}
+
+            //public static string Vehicle(string birthMonth)
+            //{
+            //    string vehicleFortune;
+            //    if(birthMonth.ToUpper() == "APRIL" || birthMonth.ToUpper() == "OCTOBER")
+            //    {
+            //        vehicleFortune = "Hoverboard";
+            //    }
+            //    else
+            //    {
+            //        vehicleFortune = "SUV";
+            //    }
+            //    return vehicleFortune;
+            //}
+            //create a method called favoritme food
+            //it should take two string parameters. one representing a name, the other representing a food
+            //the return type should be void
+
+            //public static void Food(string name, string favFood)
+            //{
+            //    Console.WriteLine(name + "likes" + favFood);
+            //}
+            ////Create a method called RetirementCalculator
+            //It should take an int as a parameter representing the user's age
+            //The method should calculate how many more years until the user retires using 65 as the age of retirement.
+            //The return type should be void
+            //Once it calculates the user's retirement age it should print
+            //"The user will retire in X years" where x represents the value that was calculated
+            //public static void RetCalc(int userAge)
+            //{
+            //    int retYrs = 65 - userAge;
+            //    Console.WriteLine("You will retire in " + retYrs + " years.");
+            //}
+            ////wage calculator
+            //public static double WageCalculator(double hoursWorkedWeekly, double hourlyWage)
+            //{
+            //    //this method should calculate the monthly wage
+            //    double monthlyWage = (hoursWorkedWeekly* 52 * hourlyWage) / 12;
+            //    return monthlyWage;
+            //}
+
+            //***************create 2 methods of your choosing. at least one method should have non void return type. 
+            //both methods should take 1 parameter
+            //remember when naming your method that it should represent what your method does
+            //method should accomplish one thing 
+
+            //Create a method to calculate the sum of the elements in an array.Inside main should look like this: 
+
+            //      int[] example = { 20, 10, 5, 2 };
+            //      System.out.println("The sum of the example array is " + sumIt(example)); 
+        //    int[] numInArray = { 4, 5, 10, 12, 23 };
+        //    Sum(numInArray);
+
+        //}
+        //static public void Sum(int[] myArray)
+        //{
+        //    int sum = 0;
+        //    for (int i = 0; i < myArray.Length; i++)
+        //    {
+        //        sum += myArray[i];
+        //    }
+        //    Console.WriteLine(sum);
+
+
+
+
         }
-        //if you have a method that does NOT have a return value, you would use the keyword void
-        //when void we dont need to use return
-
-        //public static void RobotWarning(string name)
-        //{
-        //    Console.WriteLine("Danger, " + name + "!!");
-        //}
-
-        //public static void Useless()
-        //{
-        //    Console.WriteLine("stuff");
-        //}
-
-        //public static string Vehicle(string birthMonth)
-        //{
-        //    string vehicleFortune;
-        //    if(birthMonth.ToUpper() == "APRIL" || birthMonth.ToUpper() == "OCTOBER")
-        //    {
-        //        vehicleFortune = "Hoverboard";
-        //    }
-        //    else
-        //    {
-        //        vehicleFortune = "SUV";
-        //    }
-        //    return vehicleFortune;
-        //}
-        //create a method called favoritme food
-        //it should take two string parameters. one representing a name, the other representing a food
-        //the return type should be void
-
-        //public static void Food(string name, string favFood)
-        //{
-        //    Console.WriteLine(name + "likes" + favFood);
-        //}
-        ////Create a method called RetirementCalculator
-        //It should take an int as a parameter representing the user's age
-        //The method should calculate how many more years until the user retires using 65 as the age of retirement.
-        //The return type should be void
-        //Once it calculates the user's retirement age it should print
-        //"The user will retire in X years" where x represents the value that was calculated
-        //public static void RetCalc(int userAge)
-        //{
-        //    int retYrs = 65 - userAge;
-        //    Console.WriteLine("You will retire in " + retYrs + " years.");
-        //}
-        ////wage calculator
-        //public static double WageCalculator(double hoursWorkedWeekly, double hourlyWage)
-        //{
-        //    //this method should calculate the monthly wage
-        //    double monthlyWage = (hoursWorkedWeekly* 52 * hourlyWage) / 12;
-        //    return monthlyWage;
-        //}
-
-    //***************create 2 methods of your choosing. at least one method should have non void return type. 
-    //both methods should take 1 parameter
-    //remember when naming your method that it should represent what your method does
-    //method should accomplish one thing 
-
-
-     
-    
-
-       
     }
 }
